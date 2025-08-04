@@ -1,0 +1,56 @@
+.tab-header{
+  display: flex;
+}
+
+.tab-btn{
+  padding: 5px;
+  border: 3px solid black;
+  cursor: pointer;
+}
+
+.tab-body{
+
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid black;
+  height: 40vh;
+}
+
+
+.active-tab {
+  background-color: green;
+  color: white;
+}
+
+.error{
+
+color: red;
+display: block;
+font: small;
+}
+
+
+/* -------- 
+Auto Seacrch bar css
+*/
+
+.result-container{
+
+  width:50%;
+  margin:auto;
+  border: 1px solid black;
+  padding:5px;
+  text-align:left;
+  max-height: 50vh;
+  overflow-y: scroll;
+}
+
+.result{
+  display: block;
+  padding:5px;
+}
+
+.result:hover{
+  background-color: rgba(211, 211, 211, 0.756);
+  cursor: pointer;
+}
