@@ -10,6 +10,8 @@ import TabForm from "./pages/TabForm";
 import Quote from "./pages/Quote/Quote";
 // import Navbar from "./components/NavBar";
 import SimpleCRUD from "./pages/React-UseStateHook/SimpleCRUD";
+import SteeperTabForm2 from "./pages/SteeperTabForm/SteeperTabForm2";
+
 
 function App() {
   return (
@@ -25,6 +27,7 @@ function App() {
         <Route path="/search-component" element={<SearchComponent />} />
         <Route path="/search-test" element={<SearchTest />} />
         <Route path="/tab-form" element={<TabForm />} />
+        <Route path="/stepper-tab-form" element={<SteeperTabForm2 />} />
       </Routes>
     </Router>
   );
@@ -53,6 +56,9 @@ const  Navbar=()=> {
       <NavLink to="/search-component" style={navStyle}>SearchComponent</NavLink>
       <NavLink to="/search-test" style={navStyle}>SearchTest</NavLink>
       <NavLink to="/tab-form" style={navStyle}>TabForm</NavLink>
+      <NavLink to="/stepper-tab-form" style={navStyle}>
+        SteeperTabForm2
+      </NavLink>
     </nav>
   );
 }
