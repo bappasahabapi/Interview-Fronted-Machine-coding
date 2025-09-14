@@ -1,4 +1,5 @@
 import { useState } from "react";
+import TodoApp from "../Todo-UseState/Todo";
 
 const SimpleCRUD = () => {
   const [todos, setTodos] = useState([
@@ -78,6 +79,9 @@ const SimpleCRUD = () => {
           ))}
         </div>
       </div>
+      <hr />
+      <hr />
+      <TodoApp/>
     </div>
   );
 };
